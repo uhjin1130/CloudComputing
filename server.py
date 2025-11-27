@@ -19,7 +19,7 @@ MUSIC_AGENT_PROMPT = """
 """
 
 # 2) Knowledge Base ID 환경변수 설정 (지금은 더미 값으로 두고, 나중에 실제 ID로 교체)
-kb_id = os.environ.get("KNOWLEDGE_BASE_ID", "YOUR_KB_ID")
+kb_id = os.environ.get("KNOWLEDGE_BASE_ID", "EPUIUP5SRN")
 os.environ["KNOWLEDGE_BASE_ID"] = kb_id
 
 # 3) (선택) 논문용 메타데이터 도구는 당장 안 써도 됨
